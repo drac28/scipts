@@ -33,7 +33,7 @@ jobs:
            # to use nuitka-project: options in your code, so e.g. you can make
            # a difference for macOS and create an app bundle there.
            mode: app
-           enable-plugins: matplotlib,pyside6
+           enable-plugins: tk-inter
 
       - name: Upload Artifacts
         uses: actions/upload-artifact@v4
