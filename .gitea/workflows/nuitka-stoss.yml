@@ -23,7 +23,7 @@ jobs:
       - name: Install your Dependencies
         run: |
            sudo apt update
-           sudo apt install patchelf python3-tk
+           sudo apt install -y patchelf python3-tk 
            pip install -r requirements.txt
 
       - name: Build Executable with Nuitka for GUI with PySide6
