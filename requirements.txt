@@ -1,1 +1,2 @@
 matplotlib
+pysimplegui-4-foss

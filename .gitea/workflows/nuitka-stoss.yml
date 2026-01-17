@@ -22,6 +22,7 @@ jobs:
 
       - name: Install your Dependencies
         run: |
+           sudo apt update
            pip install -r requirements.txt
 
       - name: Build Executable with Nuitka for GUI with PySide6
