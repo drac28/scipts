@@ -38,7 +38,7 @@ jobs:
            enable-plugins: tk-inter
 
       - name: Upload Artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
            name: ${{ runner.os }} Build
            path: | # match what's created for the 3 OSes
